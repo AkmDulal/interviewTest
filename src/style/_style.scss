@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+/*======================================================================
+	Project Name: 
+	Creator     : Dulal Hossain
+	Contact		: 0198-5834-220
+	E-mail		: dulalhossain34220@gmail.com
+	Date        : 
+========================================================================*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+/*===========@Global Styles ============*/
+::selection{
+    background-color: #2222;
+}
+*{margin:0; padding:0; outline:none}
+img,fieldset{border:0}
+a { text-decoration:none !important; }
+img{
+    max-width: 100%;
+    float: left;
+    display: block
+}
+ul,li{padding:0px;margin:0px; list-style: none}
+
+h1, h2, h3, h4, h5, h6, p{ margin:0; padding:0; font-weight:normal;
+-webkit-transition: all 0.3s ease-in-out 0s; 
+	 -o-transition: all 0.3s ease-in-out 0s; 
+	 transition: all 0.3s ease-in-out 0s; 
+}
+
+
+
+
+
+
+.deafult_class {
+	width: 100%;
+	float: left;
+	display: block;
+	padding: 50px 0
+}
